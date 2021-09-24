@@ -1,0 +1,47 @@
+.nav-bar {
+    background-color: #d90429;
+    height: 100px;
+}
+
+.button-spacing {
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.left-side{
+    float: left;
+    font-size: 50px;
+}
+
+.lower-rs li a{
+    margin-right: 100px;
+    float: right;
+    font-size: 40px;
+    padding: 2px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-size: 22px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+ li a:hover {
+    color:#ffd500;
+  }
