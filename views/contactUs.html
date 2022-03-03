@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASH TRADERS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <!-- code for google Maps -->
+    <!-- <script src="../controllers/map.js"></script>
+
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style> -->
+
+</head>
+<body>
+    <nav style="height: 75px;" class="navbar is-danger" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+              <a  href="/" class=" navbar-item ">Home</a>   
+              <a href="/buy" class="navbar-item">Buy</a>
+              <a href="/sell" class="navbar-item ">Sell</a>
+              <a href="/loan" class="navbar-item ">Loan</a>
+          </div>
+          <div class="navbar-end">
+              <a href="/about-us" class="navbar-item">About Us</a>   
+              <a href="/contact-us"class="navbar-item is-active">Contact Us</a>
+          </div>
+      </div>
+    </nav>
+    <section style="background-color: #edf2f4;" class="section">
+      <h1 class="title is-1">Contact Us</h1>
+      <div class="tile">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Call Us</p>
+            <div class="content">
+              <p class="subtitle is-6"><Strong>Telephone: </Strong>03 9306 0488 </p>
+              <p class="subtitle is-6"><Strong>Fax: </Strong>03 9306 0499 </p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Store Trading Hours</p>
+            <p class="subtitle">Trading hours during the <strong>Week</strong></p>
+            <div class="content">
+              <p class="subtitle is-6"><Strong>Monday: </Strong>9:30 am to 5:30 pm</p>
+              <p class="subtitle is-6"><Strong>Tuesday: </Strong>9:30 am to 5:30 pm</p>
+              <p class="subtitle is-6"><Strong>Wednesday: </Strong>9:30 am to 5:30 pm</p>
+              <p class="subtitle is-6"><Strong>Thursday: </Strong>9:30 am to 5:30 pm</p>
+              <p class="subtitle is-6"><Strong>Friday: </Strong>9:30 am to 5:30 pm</p>
+            </div>
+            <p class="subtitle">Trading hours during the <strong>Weekend</strong></p>
+            <div class="content">
+              <p class="subtitle is-6"><Strong>Saturday: </Strong>9:30 am to 5:00 pm</p>
+              <p class="subtitle is-6"><Strong>Sunday: </Strong>10:00 am to 3:00 pm</p>
+            </div>
+          </article>
+        </div>
+        <div class="tile is-8 is-parent">
+          <article class="tile is-child box">
+            <p class="title">Where we are Located</p>
+            <p class="subtitle">Cash Traders is located at <strong>761 Pascoe Vale road, Glenroy 3046 Victoria</strong>.</p>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section style="background-color: #9dbebb;" class="section is-medium">
+      <h1 class="title is-1">Send us an Email</h1>
+      <h2 class="subtitle">
+        An alternative way to contact us is to send us an <strong>email</strong>. 
+        Any email within trading hours will be replied to within <strong>30 minutes</strong>.
+      </h2>
+      <form action="/contact-us" method="POST">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Text input" name="name">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Telephone Number</label>
+          <div class="control">
+            <input class="input is-success" type="tel" placeholder="Enter your Telephone Number" name="number">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input is-danger" type="email" placeholder="Enter your Email Address" name="email">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea id="textareaID" class="textarea" placeholder="Textarea"></textarea>
+          </div>
+        </div>
+        
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox">
+              I agree to the <a href="#">terms and conditions</a>
+            </label>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light">Cancel</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="section is-medium">
+      <h1 class="title">Medium section</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
+      </h2>
+    </section>
+    <footer class="footer" style="background-color: #8d99ae;">
+        <div class="content has-text-centered">
+          <p>
+            <strong>CASH TRADERS</strong> by <strong>Jelwin Edwin</strong>>. Copyright © 1998-2022 Cash Traders
+          </p>
+        </div>
+    </footer>
+</body>
+</html>
